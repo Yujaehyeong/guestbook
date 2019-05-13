@@ -13,7 +13,7 @@ import com.cafe24.guestbook.vo.GuestbookVo;
 public class GuestbookDao {
 
 	public Boolean deleteGuestbook(GuestbookVo guestbookVo) {
-
+		
 		Boolean result = true;
 		
 		Connection conn = null;

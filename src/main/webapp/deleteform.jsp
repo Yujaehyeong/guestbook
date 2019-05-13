@@ -10,7 +10,7 @@
 <title>방명록</title>
 </head>
 <body>
-	<form method="post" action="">
+	<form method="post" action="<%=request.getContextPath()%>/delete.jsp">
 	<input type = "hidden" name ="no" value="<%=no%>">
 	<table>
 		<tr>
